@@ -6,3 +6,5 @@ Learning Goals
 - [ ] write a simple HTML form
 - [ ] read and react to HTTP parameters from the form
 - [ ] explain the statelessness of the HTTP request/response cycle
+
+- [ ] [bundler documentation](http://bundler.io/)
