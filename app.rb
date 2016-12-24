@@ -8,6 +8,9 @@ class IdeaBoxApp < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
   end
+  post '/' do
+    "Creating an IDEA!"
+  end
   get '/' do
     erb :index
   end
