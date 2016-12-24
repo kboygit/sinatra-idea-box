@@ -2,6 +2,9 @@
 # Bundler.require
 
 class IdeaBoxApp < Sinatra::Base
+  not_found do
+    erb :error
+  end
   configure :development do
     register Sinatra::Reloader
   end
