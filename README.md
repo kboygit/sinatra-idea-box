@@ -10,3 +10,5 @@ Learning Goals
 - [ ] [bundler documentation](http://bundler.io/)
 - [ ] [Shotgun Automatic Reloader for rack](https://github.com/rtomayko/shotgun)
 - [ ] [API document for Rack::Request](http://www.rubydoc.info/gems/rack/Rack/Request)
+- [ ] [ISSUES: undefined method `delete' for Idea:Class (NoMethodError)
+]
