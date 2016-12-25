@@ -3,6 +3,8 @@
 require './idea'
 
 class IdeaBoxApp < Sinatra::Base
+  # set :method_override, true
+
   not_found do
     erb :error
   end

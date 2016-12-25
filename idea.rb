@@ -2,6 +2,10 @@ require 'yaml/store'
 
 class Idea
   attr_reader :title, :description
+#   delete '/:id' do |id|
+#   "DELETING an idea!"
+# end
+
   def self.all
     raw_ideas.map do |data|
       new(data[:title], data[:description])
